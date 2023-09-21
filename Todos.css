@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+#header h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: skyblue;
+    color: aliceblue;
+}
+
+#my-form label{
+    display: block;
+    font-size: 25px;
+}
+
+#my-form input[type='text'] {
+    height: 5vh;
+    width: 20vw;
+    margin:.3vw;
+    border-radius: 10px;
+}
+
+#my-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+}
+
+#my-form #btn {
+    background-color: skyblue;
+    color: aliceblue;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#list .childList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: skyblue;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#completed-list .childList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(140, 199, 166);
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    color: aliceblue;
+}
