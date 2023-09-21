@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Todos.css">
+    <title>Todos List</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1>TODOS LIST</h1>
+    </div>
+    <section class="container">
+        <form onsubmit="saveData(event)"  id="my-form">
+            <label for="todo-name">Todos Name:</label>
+            <input type="text" id="todo-name">
+            <label for="todo-desc">Todos Desc:</label>
+            <input type="text" id="todo-desc">
+            <input type="submit" id="btn" value="Add Item">
+        </form>
+        <div id="todos-container">
+            <h1>TODOS REMAINING</h1>
+            <ul id="list"></ul>
+            <h1>TODOS DONE</h1>
+            <ul id="completed-list"></ul>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+    <script src="Todos.js"></script>
+</body>
+
+</html>
